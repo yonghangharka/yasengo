@@ -2,12 +2,6 @@ import Image from "next/image";
 // import bg from "../public/main.jpg";
 export default function Home() {
   return (
-    // <div className="flex min-h-screen items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-    //   <p className="text-xl">
-    //     This is just demo page which im working on and and will update some
-    //     times if possible.
-    //   </p>
-    // </div>
     <div className="flex flex-col md:flex-row min-h-screen">
       {/* Sidebar */}
       <aside className="w-full md:w-1/4 border-b md:border-b-0 md:border-r border-gray-300 p-6 flex flex-col justify-between">
