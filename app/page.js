@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Header from "./components/Header";
 // import bg from "../public/main.jpg";
 export default function Home() {
   return (
@@ -9,14 +10,7 @@ export default function Home() {
           <h1 className="text-3xl font-extrabold tracking-widest mb-6 text-center md:text-left">
             YASENGO
           </h1>
-          <nav className="hidden md:flex flex-col md:space-y-2 text-sm text-center md:text-left">
-            <a href="#" className="hover:underline">
-              OVERVIEW
-            </a>
-            <a href="#" className="hover:underline">
-              ABOUT / CONTACT
-            </a>
-          </nav>
+          <Header />
         </div>
 
         {/* <div className="text-xs space-y-1 text-center md:text-left mt-8 md:mt-0">
