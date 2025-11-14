@@ -59,25 +59,21 @@ export default function Header() {
           pointerEvents: isOpen ? "auto" : "none",
         }}
       >
-        <nav className="flex flex-col bg-amber-800 items-center justify-center h-full space-y-12 text-2xl font-bold text-white">
+        <nav className="flex flex-col bg-black items-center justify-center h-full space-y-12 text-2xl font-bold text-white">
+          <Link key="destination" href="/" onClick={() => setIsOpen(false)}>
+            Home
+          </Link>
           <Link
-            key="destination"
+            key="guides"
             href="/collection"
-            onClick={() => setIsOpen(false)}
-          >
-            kjhanskdf
-          </Link>
-          <Link key="guides" href="/cabins" onClick={() => setIsOpen(false)}>
-            Guides
-          </Link>
-          <Link
-            key="collection"
-            href="/collection-2"
             onClick={() => setIsOpen(false)}
           >
             Collection
           </Link>
-          <Link key="about" href="/about" onClick={() => setIsOpen(false)}>
+          <Link key="collection" href="/" onClick={() => setIsOpen(false)}>
+            Contact
+          </Link>
+          <Link key="about" href="/" onClick={() => setIsOpen(false)}>
             About
           </Link>
         </nav>
