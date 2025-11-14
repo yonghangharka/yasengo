@@ -21,7 +21,7 @@ export default function Header() {
 
   return (
     <header className=" ">
-      <div className="flex md:flex-col items-center justify-between md:justify-start">
+      <div className="flex md:flex-col items-center md:items-start justify-between md:justify-start">
         <Logo />
         <Navigation />
 

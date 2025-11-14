@@ -24,7 +24,9 @@ export default function RootLayout({ children }) {
         className={`${geistSans.variable} ${geistMono.variable} antialiased flex flex-col md:flex-row min-h-screen`}
       >
         <Aside />
-        <main>{children}</main>
+        <main className="flex-1 overflow-y-auto min-h-screen p-6">
+          {children}
+        </main>
       </body>
     </html>
   );
