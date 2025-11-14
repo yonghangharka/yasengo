@@ -1,15 +1,11 @@
 import Image from "next/image";
-import Header from "./components/Header";
 // import bg from "../public/main.jpg";
 export default function Home() {
   return (
     <div className="flex flex-col md:flex-row min-h-screen">
       {/* Sidebar */}
-      <aside className="w-full md:w-1/4 border-b md:border-b-0 md:border-r border-gray-300 p-6 flex flex-col justify-between">
+      {/* <aside className="w-full md:w-1/4 border-b md:border-b-0 md:border-r border-gray-300 p-6 flex flex-col justify-between">
         <div>
-          <h1 className="text-3xl font-extrabold tracking-widest mb-6 text-center md:text-left">
-            YASENGO
-          </h1>
           <Header />
         </div>
 
@@ -31,8 +27,8 @@ export default function Home() {
             Copyright Nizzah <br />
             All rights reserved
           </p>
-        </div> */}
-      </aside>
+        </div> 
+      </aside> */}
 
       {/* Main content */}
       <section className="flex-1 p-6 md:p-12 overflow-y-auto">
@@ -50,9 +46,10 @@ export default function Home() {
           <h2 className="text-xl font-bold mb-4">About</h2>
 
           <p className="mb-4 leading-relaxed text-sm md:text-base">
-            I'm Yasengo and many more, you can called that.This is small demo of
-            my hobby of mine.I'm using NEXT for this one which i learned while
-            ago but almost forgot all concept.
+            I'm <span className="text-cyan-400 font-extrabold">Harka Hang</span>{" "}
+            and many more, you can called that.This is small demo of my hobby of
+            mine.I'm using NEXT for this one which i learned while ago but
+            almost forgot all concept.
           </p>
 
           <p className="mb-6 leading-relaxed text-sm md:text-base">
