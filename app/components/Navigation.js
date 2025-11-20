@@ -6,7 +6,7 @@ export default function Navigation() {
       <Link href="/collection" className="hover:underline">
         Collection
       </Link>
-      <Link href="/" className="hover:underline">
+      <Link href="/contact" className="hover:underline">
         ABOUT / CONTACT
       </Link>
     </nav>

@@ -19,6 +19,7 @@ export default function Home() {
             </a>
           </p>
           <p>
+
             <a href="mailto:hi@nizzah.com" className="underline">
               hi@nizzah.com
             </a>

@@ -61,7 +61,7 @@ export default function Header() {
       >
         <nav className="flex flex-col bg-black items-center justify-center h-full space-y-12 text-2xl font-bold text-white">
           <Link key="destination" href="/" onClick={() => setIsOpen(false)}>
-            Home
+            About
           </Link>
           <Link
             key="guides"
@@ -70,12 +70,16 @@ export default function Header() {
           >
             Collection
           </Link>
-          <Link key="collection" href="/" onClick={() => setIsOpen(false)}>
+          <Link
+            key="collection"
+            href="/contact"
+            onClick={() => setIsOpen(false)}
+          >
             Contact
           </Link>
-          <Link key="about" href="/" onClick={() => setIsOpen(false)}>
+          {/* <Link key="about" href="/" onClick={() => setIsOpen(false)}>
             About
-          </Link>
+          </Link> */}
         </nav>
       </div>
     </header>
